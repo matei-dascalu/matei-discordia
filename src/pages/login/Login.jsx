@@ -1,9 +1,10 @@
 import "./Login.css";
+import LoginBackground from "./background/Background";
 
 export function Login() {
     return (
         <>
-            <h1>bine ai venit pe MateiDiscordia</h1>
+            <LoginBackground />
         </>
     );
 }
