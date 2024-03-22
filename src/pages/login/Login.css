@@ -1,4 +1,107 @@
-.h1 {
-    color: green;
-    font-weight: bold;
+.background {
+    background-image: url("./background.svg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: var(--primary-color-gray-dark-2); /* Add transparency to make the background SVG visible */
+    padding: 32px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 416px;
+    height: 340px;
+}
+
+.card h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    line-height: 1.25;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.08em;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--text-color-dark);
+    line-height: 1.25;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 12px;
+    inline-size: 1.33333333333;
+    font-weight: 700;
+    /* transform: uppercase; */
+    color: var(--text-color-dark);
+}
+
+.form-group span {
+    color: #f23f42;
+    font-size: 8px;
+    margin-bottom: 1000px;
+}
+
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--primary-color-gray-dark-1);
+    box-sizing: border-box;
+    height: 40px;
+}
+
+button {
+    background-color: var(--secondery-color);
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    /* font-size: 100%; */
+    /* font-weight: 100; */
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    /* line-height: 24px; */
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #4c53c6;
+}
+
+p {
+    text-align: start;
+    font-size: 14px;
+    color: var(--text-color-dark);
+}
+
+a {
+    color: #00a8fc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
