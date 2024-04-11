@@ -1,4 +1,6 @@
 import "./Login.css";
+import React from "react";
+import { Link } from "react-router-dom";
 // import LoginBackground from "./background/Background";
 
 export function Login() {
@@ -11,22 +13,27 @@ export function Login() {
                         <h2>We're so excited to see you again! </h2>
                         <form>
                             <div className="form-group">
-                                <label for="email">
+                                <label htmlFor="email">
                                     EMAIL OR PHONE NUMBER <span> *</span>
                                 </label>
                                 <input type="email" id="email" name="email" required />
                             </div>
                             <div className="form-group">
-                                <label for="password">
+                                <label htmlFor="password">
                                     PASSWORD <span> *</span>
                                 </label>
                                 <input type="password" id="password" name="password" required />
                             </div>
-                            <a>Forgot your password?</a>
-                            <button type="submit">Log In</button>
+                            <a href="#">Forgot your password?</a>
+                            <button type="submit">
+                                <Link to="/mainapp" className="login-link">
+                                    Log In
+                                </Link>
+                            </button>
+                            {/* Use Link component */}
                         </form>
                         <p>
-                            Need and account? <a href="#">Register</a>
+                            Need an account? <a href="#">Register</a>
                         </p>
                     </div>
                 </div>
