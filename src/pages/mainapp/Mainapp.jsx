@@ -4,7 +4,6 @@ import React from "react";
 function MainApp() {
     return (
         <div>
-            <h1>Pagina mainApp</h1>
             <Sidebar />
         </div>
     );

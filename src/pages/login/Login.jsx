@@ -24,16 +24,20 @@ export function Login() {
                                 </label>
                                 <input type="password" id="password" name="password" required />
                             </div>
-                            <a href="#">Forgot your password?</a>
-                            <button type="submit">
+                            <a href="#" className="el-a">
+                                Forgot your password?
+                            </a>
+                            <button className="el-but" type="submit">
                                 <Link to="/mainapp" className="login-link">
                                     Log In
                                 </Link>
                             </button>
-                            {/* Use Link component */}
                         </form>
-                        <p>
-                            Need an account? <a href="#">Register</a>
+                        <p className="el-p">
+                            Need an account?{" "}
+                            <a className="el-a" href="#">
+                                Register
+                            </a>
                         </p>
                     </div>
                 </div>

@@ -62,7 +62,7 @@
 
 input[type="email"],
 input[type="password"],
-button {
+.el-but {
     width: 100%;
     padding: 10px;
     border: none;
@@ -74,9 +74,8 @@ button {
     color: var(--text-color);
 }
 
-button {
+.el-but {
     background-color: var(--secondery-color);
-    color: #ffffff;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;
@@ -88,17 +87,17 @@ button {
     margin: 0 auto;
 }
 
-button:hover {
+.el-but:hover {
     background-color: #4c53c6;
 }
 
-p {
+.el-p {
     text-align: start;
     font-size: 14px;
     color: var(--text-color-dark);
 }
 
-a {
+.el-a {
     color: #00a8fc;
     text-decoration: none;
     font-size: 14px;
@@ -110,6 +109,7 @@ a {
     font-weight: 500;
 }
 
-.link a:hover {
+.link,
+.el-a:hover {
     text-decoration: underline;
 }
