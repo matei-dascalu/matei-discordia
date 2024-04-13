@@ -13,26 +13,28 @@
 }
 
 body {
-    background: var(--color-dark);
+    /* background: var(--color-dark); */
     font-family: "Open Sans", sans-serif;
     color: var(--color-full-white);
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
-nav {
-    position: fixed;
+.totutz {
+    position: absolute;
     top: 0;
     bottom: 0;
     overflow-y: scroll;
     width: 100%;
+    padding-top: 45px;
 }
-nav::-webkit-scrollbar {
+
+.totutz::-webkit-scrollbar {
     display: none;
 }
 
 .guilds-container {
     background: var(--color-not-quite-black);
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -40,6 +42,7 @@ nav::-webkit-scrollbar {
     position: absolute;
     box-sizing: border-box;
     z-index: 2;
+    padding-top: 48px;
 }
 
 .squircle {
@@ -58,7 +61,7 @@ nav::-webkit-scrollbar {
     border-radius: 36%;
 }
 .squircle:hover::before {
-    transform: translate(-100%, -50%) scale(0.5);
+    transform: translate(-100%, -50%) scale(0.8);
 }
 .squircle:hover .popper-boi {
     opacity: 1;
@@ -137,14 +140,14 @@ nav::-webkit-scrollbar {
 /** styling status bar **/
 
 .panel {
-    width: 256px;
+    width: 229px;
     display: flex;
     align-items: center;
     padding: 0.5rem 1rem;
     z-index: 1;
     position: fixed;
     bottom: 0;
-    left: 80px;
+    left: 60px;
     background: var(--color-grey-dark);
 }
 .panel:hover .tag,
@@ -278,4 +281,80 @@ nav::-webkit-scrollbar {
 .avatar {
     width: inherit;
     border-radius: inherit;
+}
+
+.sidebar-container {
+    overflow-y: scroll;
+    height: calc(100vh - 56px);
+}
+
+.sidebar-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar-container::-webkit-scrollbar-track {
+    background: var(--color-not-quite-black);
+    border-radius: 4px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb {
+    background: var(--color-lighter-dark);
+    border-radius: 4px;
+}
+
+.sidebar-container::-webkit-scrollbar-thumb:hover {
+    background: var(--color-dark);
+}
+
+.discord-bar {
+    background-color: #2b2d31;
+    width: 229px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: flex-start;
+    position: fixed;
+    left: 60px;
+    height: 100vh;
+    /* top: 0; */
+}
+
+.discord-bar-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.discord-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: transparent;
+    color: #949ba4;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 30px;
+    width: 14rem;
+}
+
+.discord-button:hover {
+    background-color: var(--color-lighter-dark);
+}
+
+.button-content {
+    display: flex; /* Use flexbox to align icon and text */
+    align-items: center; /* Align items vertically */
+    gap: 8px; /* Adjust the gap between icon and text */
+}
+
+.dicord-buttons-text {
+    font-size: 14px;
+}
+
+.iconContainer__6a580 {
+}
+
+.icon__67ab4 {
+    /* Styles for the SVG icon */
 }
