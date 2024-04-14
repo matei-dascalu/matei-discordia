@@ -36,7 +36,7 @@ body {
 }
 
 .guilds-container {
-    background: var(--color-not-quite-black);
+    background: var(--primary-color-gray-dark-1);
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -201,11 +201,13 @@ body {
 .avatar-wrapper {
     margin-right: 8px;
     position: relative;
-    background: pink;
+    /* background: pink; */
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    object-fit: cover;
+    /* object-fit: cover; */
+    background-image: url(./../../../public/me.png);
+    background-size: cover;
 }
 
 .user-info {

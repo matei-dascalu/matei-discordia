@@ -3,7 +3,7 @@
 .right-sidebar {
     width: 250px;
     height: 100vh;
-    background-color: #2f3136;
+    background-color: var(--primary-color-gray-dark-3);
     color: #ffffff;
     padding-top: 60px;
     position: fixed;
@@ -15,25 +15,50 @@
     width: 100%;
     padding: 10px;
     text-align: center;
+    padding-left: 20px;
 }
 
 .right-sidebar-users {
     padding: 10px;
+    padding-left: 20px;
 }
 
 .user {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .user-avatar {
-    width: 40px;
-    height: 40px;
+    width: 31.99px;
+    height: 31.99px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
 .user-name {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    color: #949ba4;
+}
+
+.user-name:hover {
+    color: white;
+}
+
+.header {
+    text-align: start;
+    color: #949ba4;
+}
+
+.user-container {
+    padding: 0.4rem;
+}
+
+.user-container:hover {
+    background-color: #36373d;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-container:hover .user-name {
+    color: var(--text-color);
 }

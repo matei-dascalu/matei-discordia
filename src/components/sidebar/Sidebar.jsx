@@ -95,7 +95,7 @@ function Sidebar() {
                                 ></path>
                             </svg>
                             <div className="popper-boi">
-                                <h4 className="popper-text">Explore Public Servers</h4>
+                                <h4 className="popper-text">Explore Discoverable Servers</h4>
                             </div>
                         </div>
 
@@ -356,13 +356,13 @@ function Sidebar() {
                     <section className="panel">
                         <div className="user-info">
                             <div className="avatar-wrapper">
-                                <img className="avatar" src="assets/server_icons/sop.png" alt="" />
+                                {/* <img className="avatar" src="./../../../public/me.png" alt="" /> */}
                                 <div className="status-holder">
                                     <div className="user-status-icon"></div>
                                 </div>
                             </div>
                             <div className="name-tag-container">
-                                <h1 className="username tipper-boi" data-tip="Click to copy username">
+                                <h1 className="username tipper-boi" data-tip="Matei">
                                     MateiDascalu
                                 </h1>
                                 <div className="roller">

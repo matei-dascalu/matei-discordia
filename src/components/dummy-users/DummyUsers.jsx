@@ -1,0 +1,17 @@
+export const users = [
+    { id: 1, name: "John", avatar: "https://randomuser.me/api/portraits/men/1.jpg" },
+    { id: 2, name: "Emma", avatar: "https://randomuser.me/api/portraits/women/2.jpg" },
+    { id: 3, name: "Alex", avatar: "https://randomuser.me/api/portraits/men/3.jpg" },
+    { id: 4, name: "Sophia", avatar: "https://randomuser.me/api/portraits/women/4.jpg" },
+    { id: 5, name: "David", avatar: "https://randomuser.me/api/portraits/men/5.jpg" },
+    { id: 6, name: "Olivia", avatar: "https://randomuser.me/api/portraits/women/6.jpg" },
+    { id: 7, name: "Daniel", avatar: "https://randomuser.me/api/portraits/men/7.jpg" },
+    { id: 8, name: "Ava", avatar: "https://randomuser.me/api/portraits/women/8.jpg" },
+    { id: 9, name: "Michael", avatar: "https://randomuser.me/api/portraits/men/9.jpg" },
+    { id: 10, name: "Sophie", avatar: "https://randomuser.me/api/portraits/women/10.jpg" },
+    { id: 11, name: "Ethan", avatar: "https://randomuser.me/api/portraits/men/11.jpg" },
+    { id: 12, name: "Isabella", avatar: "https://randomuser.me/api/portraits/women/12.jpg" },
+    { id: 13, name: "Matthew", avatar: "https://randomuser.me/api/portraits/men/13.jpg" },
+    { id: 14, name: "Emily", avatar: "https://randomuser.me/api/portraits/women/14.jpg" },
+    { id: 15, name: "James", avatar: "https://randomuser.me/api/portraits/men/15.jpg" },
+];

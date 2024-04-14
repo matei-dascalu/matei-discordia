@@ -76,7 +76,6 @@ const ChatApp = () => {
                                 🩶
                             </span>
                         </button>
-                        {/* Add more emoticon buttons here */}
                     </div>
                 </form>
             </div>
