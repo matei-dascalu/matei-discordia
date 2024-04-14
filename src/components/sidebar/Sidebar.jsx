@@ -7,7 +7,7 @@ function Sidebar() {
             <nav className="totutz">
                 <div className="sidebar-container">
                     <section className="guilds-container">
-                        <div className="squircle purple-boi">
+                        <div className="squircle purple-boi purple-boi-1">
                             <svg aria-hidden="false" width="28" height="20" viewBox="0 0 28 20">
                                 <path
                                     fill="currentColor"
@@ -21,60 +21,51 @@ function Sidebar() {
 
                         <div className="divider"></div>
 
-                        <div className="squircle purple-boi">
+                        <div className="squircle purple-boi matei1">
                             <div className="popper-boi">
-                                <h4 className="popper-text">Matei</h4>
+                                <h4 className="popper-text">Vice City </h4>
                             </div>
                         </div>
 
-                        <div className="squircle purple-boi">
-                            <img src="assets/server_icons/cop.png" alt="SoP" className="server-icon" />
+                        <div className="squircle purple-boi matei2">
+                            <div className="popper-boi">
+                                <h4 className="popper-text">Škoda Simply Clever</h4>
+                            </div>
+                        </div>
+
+                        <div className="squircle purple-boi matei3">
                             <div className="popper-boi">
                                 <h4 className="popper-text">ITSchool</h4>
                             </div>
                         </div>
 
-                        <div className="squircle purple-boi"></div>
-
-                        <div className="squircle purple-boi">
+                        <div className="squircle purple-boi matei4">
                             <div className="popper-boi">
-                                <h4 className="popper-text">Dead Coders</h4>
+                                <h4 className="popper-text">MidJourney</h4>
                             </div>
                         </div>
 
-                        <div className="squircle purple-boi">
+                        <div className="squircle purple-boi matei5">
                             <div className="popper-boi">
-                                <h4 className="popper-text">Dead Coders</h4>
+                                <h4 className="popper-text">ride</h4>
                             </div>
                         </div>
 
-                        <div className="squircle purple-boi">
+                        <div className="squircle purple-boi matei6">
                             <div className="popper-boi">
-                                <h4 className="popper-text">Dead Coders</h4>
+                                <h4 className="popper-text">parkour</h4>
                             </div>
                         </div>
 
-                        <div className="squircle purple-boi">
+                        <div className="squircle purple-boi matei7">
                             <div className="popper-boi">
-                                <h4 className="popper-text">Dead Coders</h4>
+                                <h4 className="popper-text">coffee</h4>
                             </div>
                         </div>
 
-                        <div className="squircle purple-boi">
+                        <div className="squircle purple-boi matei8">
                             <div className="popper-boi">
-                                <h4 className="popper-text">Dead Coders</h4>
-                            </div>
-                        </div>
-
-                        <div className="squircle purple-boi">
-                            <div className="popper-boi">
-                                <h4 className="popper-text">Dead Coders</h4>
-                            </div>
-                        </div>
-
-                        <div className="squircle purple-boi">
-                            <div className="popper-boi">
-                                <h4 className="popper-text">Dead Coders</h4>
+                                <h4 className="popper-text">LEGO</h4>
                             </div>
                         </div>
 
@@ -105,6 +96,30 @@ function Sidebar() {
                             </svg>
                             <div className="popper-boi">
                                 <h4 className="popper-text">Explore Public Servers</h4>
+                            </div>
+                        </div>
+
+                        <div className="divider"></div>
+
+                        <div className="squircle green-boi">
+                            <svg
+                                class="circleIcon_b62ef0"
+                                aria-hidden="true"
+                                role="img"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    fill="currentColor"
+                                    d="M12 2a1 1 0 0 1 1 1v10.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V3a1 1 0 0 1 1-1ZM3 20a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2H3Z"
+                                    class=""
+                                ></path>
+                            </svg>
+                            <div className="popper-boi">
+                                <h4 className="popper-text">Download Apps</h4>
                             </div>
                         </div>
                     </section>
@@ -221,6 +236,118 @@ function Sidebar() {
                                         ></path>
                                     </svg>{" "}
                                     <span className="dicord-buttons-text">fun</span>
+                                </div>
+                            </button>
+                            <button className="discord-button">
+                                <div aria-label="Text (Limited) icon" role="img" className="iconContainer__6a580">
+                                    <svg
+                                        className="icon__67ab4"
+                                        aria-hidden="true"
+                                        role="img"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fill-rule="evenodd"
+                                            d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
+                                            clip-rule="evenodd"
+                                            class=""
+                                        ></path>
+                                        <path
+                                            fill="currentColor"
+                                            d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
+                                            class=""
+                                        ></path>
+                                    </svg>{" "}
+                                    <span className="dicord-buttons-text">css</span>
+                                </div>
+                            </button>
+                            <button className="discord-button">
+                                <div aria-label="Text (Limited) icon" role="img" className="iconContainer__6a580">
+                                    <svg
+                                        className="icon__67ab4"
+                                        aria-hidden="true"
+                                        role="img"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fill-rule="evenodd"
+                                            d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
+                                            clip-rule="evenodd"
+                                            class=""
+                                        ></path>
+                                        <path
+                                            fill="currentColor"
+                                            d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
+                                            class=""
+                                        ></path>
+                                    </svg>{" "}
+                                    <span className="dicord-buttons-text">javascript</span>
+                                </div>
+                            </button>
+                            <button className="discord-button">
+                                <div aria-label="Text (Limited) icon" role="img" className="iconContainer__6a580">
+                                    <svg
+                                        className="icon__67ab4"
+                                        aria-hidden="true"
+                                        role="img"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fill-rule="evenodd"
+                                            d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
+                                            clip-rule="evenodd"
+                                            class=""
+                                        ></path>
+                                        <path
+                                            fill="currentColor"
+                                            d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
+                                            class=""
+                                        ></path>
+                                    </svg>{" "}
+                                    <span className="dicord-buttons-text">react</span>
+                                </div>
+                            </button>
+                            <button className="discord-button">
+                                <div aria-label="Text (Limited) icon" role="img" className="iconContainer__6a580">
+                                    <svg
+                                        className="icon__67ab4"
+                                        aria-hidden="true"
+                                        role="img"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fill-rule="evenodd"
+                                            d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
+                                            clip-rule="evenodd"
+                                            class=""
+                                        ></path>
+                                        <path
+                                            fill="currentColor"
+                                            d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
+                                            class=""
+                                        ></path>
+                                    </svg>{" "}
+                                    <span className="dicord-buttons-text">web audio and music</span>
                                 </div>
                             </button>
                         </div>

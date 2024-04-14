@@ -28,6 +28,7 @@ body {
     overflow-y: scroll;
     width: 20rem;
     padding-top: 45px;
+    z-index: 1;
 }
 
 .totutz::-webkit-scrollbar {
@@ -83,8 +84,8 @@ body {
     transition: transform 180ms;
 }
 
-.purple-boi:hover {
-    background: var(--color-blurple);
+.purple-boi-1:hover {
+    background: var(--secondery-color);
 }
 
 .green-boi {
@@ -134,10 +135,50 @@ body {
     z-index: -1;
 }
 
-.server-icon {
-    width: inherit;
-    border-radius: inherit;
+.matei1 {
+    background-image: url("./../../../public/gta6.png");
+    background-size: cover;
 }
+
+.matei2 {
+    background-image: url("./../../../public/skoda.png");
+    background-size: cover;
+}
+
+.matei3 {
+    background-image: url("./../../../public/ITSchool.png");
+    background-size: cover;
+}
+
+.matei4 {
+    background-image: url("./../../../public/mid.png");
+    background-size: cover;
+}
+
+.matei5 {
+    background-image: url("./../../../public/bke.png");
+    background-size: cover;
+}
+
+.matei6 {
+    background-image: url("./../../../public/PK.png");
+    background-size: cover;
+}
+
+.matei7 {
+    background-image: url("./../../../public/cof.png");
+    background-size: cover;
+}
+
+.matei8 {
+    background-image: url("./../../../public/lego.png");
+    background-size: cover;
+}
+
+/* .squircle {
+    background-image: url("./../../../public/ITSchool.png");
+    background-size: cover;
+} */
 
 /** styling status bar **/
 
@@ -315,6 +356,7 @@ body {
     background-color: #2b2d31;
     width: 229px;
     padding: 0.5rem 1rem;
+    padding-top: 5rem;
     display: flex;
     align-items: flex-start;
     position: fixed;

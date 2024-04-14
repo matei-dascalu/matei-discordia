@@ -11,6 +11,7 @@ const dummyMessages = [
 const ChatApp = () => {
     const [messages, setMessages] = useState(dummyMessages);
     const [inputValue, setInputValue] = useState("");
+    const [selectedEmoticon, setSelectedEmoticon] = useState("");
 
     const handleInputChange = (event) => {
         setInputValue(event.target.value);
@@ -26,6 +27,10 @@ const ChatApp = () => {
         };
         setMessages([...messages, newMessage]);
         setInputValue("");
+    };
+
+    const handleEmoticonClick = (emoticon) => {
+        setInputValue(inputValue + emoticon);
     };
 
     return (
@@ -44,12 +49,35 @@ const ChatApp = () => {
                         type="text"
                         value={inputValue}
                         onChange={handleInputChange}
-                        placeholder="Type your message..."
+                        placeholder="         Message #fun"
                         className="input"
                     />
                     <button type="submit" className="send-button">
-                        Send
+                        MateiDiscordia
                     </button>
+                    <div className="emoticons">
+                        <button className="emoticon" onClick={() => handleEmoticonClick("🦝")}>
+                            <span role="img" aria-label="raton">
+                                🦝
+                            </span>
+                        </button>
+                        <button className="emoticon" onClick={() => handleEmoticonClick("🎮")}>
+                            <span role="img" aria-label="ps5">
+                                🎮
+                            </span>
+                        </button>
+                        <button className="emoticon" onClick={() => handleEmoticonClick("🦾")}>
+                            <span role="img" aria-label="forta">
+                                🦾
+                            </span>
+                        </button>
+                        <button className="emoticon" onClick={() => handleEmoticonClick("🩶")}>
+                            <span role="img" aria-label="forta">
+                                🩶
+                            </span>
+                        </button>
+                        {/* Add more emoticon buttons here */}
+                    </div>
                 </form>
             </div>
         </div>

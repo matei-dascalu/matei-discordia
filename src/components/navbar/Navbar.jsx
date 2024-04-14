@@ -6,6 +6,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-logo">
                 <span className="logo-text">MateiDiscordia!</span>
+                <span className="logo-text-2">Your Place to Chat, Your Space to Connect</span>
             </div>
             <div className="navbar-search">
                 <input id="searchInput" className="search-input" type="text" placeholder="Search..."></input>
