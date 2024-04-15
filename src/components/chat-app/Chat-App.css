@@ -49,7 +49,24 @@ body {
 }
 
 .message {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.message.you .message-content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.message-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding-top: 10px;
 }
 
 .message.you {
@@ -59,7 +76,16 @@ body {
 
 .user {
     font-weight: bold;
-    color: #007bff;
+    color: rgb(52, 152, 219);
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.text {
+    color: var(--text-color);
+    font-size: 0.8rem;
+    margin-top: 3px;
+    margin-left: 3.1rem;
 }
 
 .input-form {
@@ -83,6 +109,7 @@ body {
     outline: none;
     background-color: #383a40;
     height: 1.5rem;
+    color: var(--text-color);
 }
 
 /* Style the scrollbar for the messages area */
@@ -139,4 +166,14 @@ body {
 
 .emoticon span {
     font-size: 34px;
+}
+
+.avataryo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: none;
+    background-image: url(./../../../public/me.png);
+    background-size: cover;
 }

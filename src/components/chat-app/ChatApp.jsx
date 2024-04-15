@@ -1,15 +1,9 @@
 import React, { useState } from "react";
 import "./Chat-App.css";
-
-const dummyMessages = [
-    { id: 1, user: "Alice", message: "Hey there!" },
-    { id: 2, user: "Bob", message: "Hi, how are you?" },
-    { id: 3, user: "Alice", message: "I'm good, thanks!" },
-    { id: 4, user: "Charlie", message: "What's up?" },
-];
+import { chatUsers } from "./../dummy-users/DummyUsersChat";
 
 const ChatApp = () => {
-    const [messages, setMessages] = useState(dummyMessages);
+    const [messages, setMessages] = useState(chatUsers);
     const [inputValue, setInputValue] = useState("");
     const [selectedEmoticon, setSelectedEmoticon] = useState("");
 
@@ -22,7 +16,7 @@ const ChatApp = () => {
         if (inputValue.trim() === "") return;
         const newMessage = {
             id: messages.length + 1,
-            user: "You",
+            user: "MateiDascalu",
             message: inputValue,
         };
         setMessages([...messages, newMessage]);
@@ -39,8 +33,13 @@ const ChatApp = () => {
                 <div className="messages">
                     {messages.map((msg) => (
                         <div key={msg.id} className={`message ${msg.user === "You" ? "you" : "other"}`}>
-                            <span className="user">{msg.user}: </span>
-                            <span className="text">{msg.message}</span>
+                            <div className="message-content">
+                                <div className="user-info">
+                                    {msg.user !== "You" && <img src={msg.avataryo} className="avataryo" />}
+                                    <span className="user">{msg.user}</span>
+                                </div>
+                                <span className="text">{msg.message}</span>
+                            </div>
                         </div>
                     ))}
                 </div>
