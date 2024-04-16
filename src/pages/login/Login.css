@@ -113,3 +113,14 @@ input[type="password"],
 .el-a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 440px) {
+    .background {
+        /* background-color: var(--primary-color-gray-dark-1); */
+        background: var(--primary-color-gray-dark-2);
+    }
+
+    .card {
+        box-shadow: none;
+    }
+}

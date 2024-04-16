@@ -2,23 +2,9 @@
 
 @import "../../index.css";
 
-:root {
-    --color-blurple: #7289da;
-    --color-not-quite-black: #23272a;
-    --color-dark: #2c2f33;
-    --color-lighter-dark: #45494e;
-    --color-full-white: #ffffff;
-    --color-grey-white: #b9bbbe;
-    --color-grey-dark: #242629;
-    --color-actually-black: #000000;
-    --color-fantastic-green: #00ae7a;
-}
-
 body {
-    /* background: var(--color-dark); */
     font-family: "Open Sans", sans-serif;
     color: var(--color-full-white);
-    /* min-height: 100vh; */
 }
 
 .totutz {
@@ -71,7 +57,6 @@ body {
     transform: translateY(-50%) scale(1);
 }
 
-/* pill */
 .squircle::before {
     content: "";
     width: 100%;
@@ -89,11 +74,11 @@ body {
 }
 
 .green-boi {
-    color: var(--color-fantastic-green);
+    color: var(--online-verde);
 }
 
 .green-boi:hover {
-    background: var(--color-fantastic-green);
+    background: var(--online-verde);
     color: var(--color-full-white);
 }
 
@@ -175,13 +160,6 @@ body {
     background-size: cover;
 }
 
-/* .squircle {
-    background-image: url("./../../../public/ITSchool.png");
-    background-size: cover;
-} */
-
-/** styling status bar **/
-
 .panel {
     width: 229px;
     display: flex;
@@ -201,11 +179,9 @@ body {
 .avatar-wrapper {
     margin-right: 8px;
     position: relative;
-    /* background: pink; */
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    /* object-fit: cover; */
     background-image: url(./../../../public/me.png);
     background-size: cover;
 }
@@ -278,7 +254,7 @@ body {
 .user-status-icon {
     width: 8px;
     height: 8px;
-    background: var(--color-fantastic-green);
+    background: var(--online-verde);
     border-radius: 50%;
 }
 
@@ -328,8 +304,6 @@ body {
 }
 
 .sidebar-container {
-    /* overflow-y: scroll; */
-    /* height: calc(100vh - 1px); */
     height: 100vh;
     width: 20rem;
     position: sticky;
@@ -399,9 +373,3 @@ body {
 .dicord-buttons-text {
     font-size: 14px;
 }
-/* 
-.iconContainer__6a580 {
-}
-
-.icon__67ab4 {
-} */
