@@ -1,31 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Chat-App.css";
-import { chatUsers } from "./../dummy-users/DummyUsersChat";
+import { ChatProvider, useChat } from "./ChatContext";
 
 const ChatApp = () => {
-    const [messages, setMessages] = useState(chatUsers);
-    const [inputValue, setInputValue] = useState("");
-    const [selectedEmoticon, setSelectedEmoticon] = useState("");
-
-    const handleInputChange = (event) => {
-        setInputValue(event.target.value);
-    };
-
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        if (inputValue.trim() === "") return;
-        const newMessage = {
-            id: messages.length + 1,
-            user: "MateiDascalu",
-            message: inputValue,
-        };
-        setMessages([...messages, newMessage]);
-        setInputValue("");
-    };
-
-    const handleEmoticonClick = (emoticon) => {
-        setInputValue(inputValue + emoticon);
-    };
+    const { messages, inputValue, handleInputChange, handleSubmit, handleEmoticonClick } = useChat();
 
     return (
         <div className="wrapper-chat">
@@ -82,4 +60,12 @@ const ChatApp = () => {
     );
 };
 
-export default ChatApp;
+const ChatWrapper = () => {
+    return (
+        <ChatProvider>
+            <ChatApp />
+        </ChatProvider>
+    );
+};
+
+export default ChatWrapper;
