@@ -164,6 +164,6 @@
     border-radius: 50%;
     margin-right: 10px;
     border: none;
-    background-image: url(./../../../public/me.png);
+    background-image: url("./../../assets/me.png");
     background-size: cover;
 }

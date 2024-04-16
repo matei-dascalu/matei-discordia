@@ -27,11 +27,10 @@ export function Login() {
                             <a href="#" className="el-a">
                                 Forgot your password?
                             </a>
-                            <button className="el-but" type="submit">
-                                <Link to="/mainapp" className="login-link">
-                                    Log In
-                                </Link>
-                            </button>
+
+                            <Link to="/mainapp">
+                                <button className="el-but">Log In</button>
+                            </Link>
                         </form>
                         <p className="el-p">
                             Need an account?{" "}

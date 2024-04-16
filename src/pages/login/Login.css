@@ -1,5 +1,5 @@
 .background {
-    background-image: url("./background.svg");
+    background-image: url("./../../assets/background.svg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -13,7 +13,7 @@
 }
 
 .card {
-    background-color: var(--primary-color-gray-dark-2); /* Add transparency to make the background SVG visible */
+    background-color: var(--primary-color-gray-dark-2);
     padding: 32px;
     border-radius: 7px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -72,6 +72,7 @@ input[type="password"],
     height: 40px;
     outline: none;
     color: var(--text-color);
+    font-weight: 600;
 }
 
 .el-but {
@@ -103,11 +104,11 @@ input[type="password"],
     font-size: 14px;
 }
 
-.login-link {
+/* .login-link {
     color: var(--text-color);
     text-decoration: solid;
     font-weight: 500;
-}
+} */
 
 .link,
 .el-a:hover {
@@ -116,7 +117,6 @@ input[type="password"],
 
 @media screen and (max-width: 440px) {
     .background {
-        /* background-color: var(--primary-color-gray-dark-1); */
         background: var(--primary-color-gray-dark-2);
     }
 

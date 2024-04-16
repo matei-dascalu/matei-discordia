@@ -1,7 +1,7 @@
 .navbar {
     position: fixed;
     width: 100%;
-    background-color: #333;
+    background-color: var(--primary-color-gray-dark-4);
     color: var(--text-color);
     z-index: 10;
     display: flex;

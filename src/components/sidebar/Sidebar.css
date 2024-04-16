@@ -21,7 +21,7 @@ body {
     display: none;
 }
 
-.guilds-container {
+.mto-container {
     background: var(--primary-color-gray-dark-1);
     padding: 0.5rem;
     display: flex;
@@ -31,11 +31,11 @@ body {
     position: fixed;
     box-sizing: border-box;
     z-index: 2;
-    padding-top: 48px;
+    padding-top: 1.75rem;
 }
 
 .squircle {
-    background: var(--color-lighter-dark);
+    background: var(--primary-color-gray-dark-4);
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -121,42 +121,42 @@ body {
 }
 
 .matei1 {
-    background-image: url("./../../../public/gta6.png");
+    background-image: url("./../../assets/gta6.png");
     background-size: cover;
 }
 
 .matei2 {
-    background-image: url("./../../../public/skoda.png");
+    background-image: url("./../../assets/skoda.png");
     background-size: cover;
 }
 
 .matei3 {
-    background-image: url("./../../../public/ITSchool.png");
+    background-image: url("./../../assets/ITSchool.png");
     background-size: cover;
 }
 
 .matei4 {
-    background-image: url("./../../../public/mid.png");
+    background-image: url("./../../assets/mid.png");
     background-size: cover;
 }
 
 .matei5 {
-    background-image: url("./../../../public/bke.png");
+    background-image: url("./../../assets/bke.png");
     background-size: cover;
 }
 
 .matei6 {
-    background-image: url("./../../../public/PK.png");
+    background-image: url("./../../assets/PK.png");
     background-size: cover;
 }
 
 .matei7 {
-    background-image: url("./../../../public/cof.png");
+    background-image: url("./../../assets/cof.png");
     background-size: cover;
 }
 
 .matei8 {
-    background-image: url("./../../../public/lego.png");
+    background-image: url("./../../assets/lego.png");
     background-size: cover;
 }
 
@@ -182,7 +182,7 @@ body {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background-image: url(./../../../public/me.png);
+    background-image: url("./../../assets/me.png");
     background-size: cover;
 }
 

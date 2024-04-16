@@ -6,7 +6,7 @@ function Sidebar() {
         <>
             <nav className="totutz">
                 <div className="sidebar-container">
-                    <section className="guilds-container">
+                    <section className="mto-container">
                         <div className="squircle purple-boi purple-boi-1">
                             <svg aria-hidden="false" width="28" height="20" viewBox="0 0 28 20">
                                 <path
@@ -15,7 +15,7 @@ function Sidebar() {
                                 ></path>
                             </svg>
                             <div className="popper-boi">
-                                <h4 className="popper-text">Home</h4>
+                                <h4 className="popper-text">Direct Messages</h4>
                             </div>
                         </div>
 
@@ -103,7 +103,7 @@ function Sidebar() {
 
                         <div className="squircle green-boi">
                             <svg
-                                class="circleIcon_b62ef0"
+                                className="circleIcon_b62ef0"
                                 aria-hidden="true"
                                 role="img"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,6 @@ function Sidebar() {
                                 <path
                                     fill="currentColor"
                                     d="M12 2a1 1 0 0 1 1 1v10.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V3a1 1 0 0 1 1-1ZM3 20a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2H3Z"
-                                    class=""
                                 ></path>
                             </svg>
                             <div className="popper-boi">
@@ -140,15 +139,13 @@ function Sidebar() {
                                     >
                                         <path
                                             fill="currentColor"
-                                            fill-rule="evenodd"
+                                            fillRule="evenodd"
                                             d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
-                                            clip-rule="evenodd"
-                                            class=""
+                                            clipRule="evenodd"
                                         ></path>
                                         <path
                                             fill="currentColor"
                                             d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
-                                            class=""
                                         ></path>
                                     </svg>{" "}
                                     <span className="dicord-buttons-text">announcements</span>
@@ -168,15 +165,13 @@ function Sidebar() {
                                     >
                                         <path
                                             fill="currentColor"
-                                            fill-rule="evenodd"
+                                            fillRule="evenodd"
                                             d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
-                                            clip-rule="evenodd"
-                                            class=""
+                                            clipRule="evenodd"
                                         ></path>
                                         <path
                                             fill="currentColor"
                                             d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
-                                            class=""
                                         ></path>
                                     </svg>{" "}
                                     <span className="dicord-buttons-text">general</span>
@@ -196,15 +191,13 @@ function Sidebar() {
                                     >
                                         <path
                                             fill="currentColor"
-                                            fill-rule="evenodd"
+                                            fillRule="evenodd"
                                             d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
-                                            clip-rule="evenodd"
-                                            class=""
+                                            clipRule="evenodd"
                                         ></path>
                                         <path
                                             fill="currentColor"
                                             d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
-                                            class=""
                                         ></path>
                                     </svg>{" "}
                                     <span className="dicord-buttons-text">homework</span>
@@ -224,15 +217,13 @@ function Sidebar() {
                                     >
                                         <path
                                             fill="currentColor"
-                                            fill-rule="evenodd"
+                                            fillRule="evenodd"
                                             d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
-                                            clip-rule="evenodd"
-                                            class=""
+                                            clipRule="evenodd"
                                         ></path>
                                         <path
                                             fill="currentColor"
                                             d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
-                                            class=""
                                         ></path>
                                     </svg>{" "}
                                     <span className="dicord-buttons-text">fun</span>
@@ -252,15 +243,13 @@ function Sidebar() {
                                     >
                                         <path
                                             fill="currentColor"
-                                            fill-rule="evenodd"
+                                            fillRule="evenodd"
                                             d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
-                                            clip-rule="evenodd"
-                                            class=""
+                                            clipRule="evenodd"
                                         ></path>
                                         <path
                                             fill="currentColor"
                                             d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
-                                            class=""
                                         ></path>
                                     </svg>{" "}
                                     <span className="dicord-buttons-text">css</span>
@@ -280,15 +269,13 @@ function Sidebar() {
                                     >
                                         <path
                                             fill="currentColor"
-                                            fill-rule="evenodd"
+                                            fillRule="evenodd"
                                             d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
-                                            clip-rule="evenodd"
-                                            class=""
+                                            clipRule="evenodd"
                                         ></path>
                                         <path
                                             fill="currentColor"
                                             d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
-                                            class=""
                                         ></path>
                                     </svg>{" "}
                                     <span className="dicord-buttons-text">javascript</span>
@@ -308,15 +295,13 @@ function Sidebar() {
                                     >
                                         <path
                                             fill="currentColor"
-                                            fill-rule="evenodd"
+                                            fillRule="evenodd"
                                             d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
-                                            clip-rule="evenodd"
-                                            class=""
+                                            clipRule="evenodd"
                                         ></path>
                                         <path
                                             fill="currentColor"
                                             d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
-                                            class=""
                                         ></path>
                                     </svg>{" "}
                                     <span className="dicord-buttons-text">react</span>
@@ -336,15 +321,13 @@ function Sidebar() {
                                     >
                                         <path
                                             fill="currentColor"
-                                            fill-rule="evenodd"
+                                            fillRule="evenodd"
                                             d="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm4-.5V4h-2v-.5a1 1 0 1 1 2 0Z"
-                                            clip-rule="evenodd"
-                                            class=""
+                                            clipRule="evenodd"
                                         ></path>
                                         <path
                                             fill="currentColor"
                                             d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"
-                                            class=""
                                         ></path>
                                     </svg>{" "}
                                     <span className="dicord-buttons-text">web audio and music</span>
@@ -367,13 +350,13 @@ function Sidebar() {
                                 </h1>
                                 <div className="roller">
                                     <p className="status-emoji">Online</p>
-                                    <p className="tag">#1120</p>
+                                    <p className="tag"> #ITSchool</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="button-container">
-                            <button className="switcher tipper-boi" data-tip="Unmute">
+                            <button className="switcher tipper-boi" data-tip="Turn On Microphone">
                                 <svg aria-hidden="false" width="20" height="20" viewBox="0 0 24 24">
                                     <path
                                         d="M6.7 11H5C5 12.19 5.34 13.3 5.9 14.28L7.13 13.05C6.86 12.43 6.7 11.74 6.7 11Z"
@@ -408,8 +391,8 @@ function Sidebar() {
                                 <svg aria-hidden="false" width="20" height="20" viewBox="0 0 24 24">
                                     <path
                                         fill="currentColor"
-                                        fill-rule="evenodd"
-                                        clip-rule="evenodd"
+                                        fillRule="evenodd"
+                                        clipRule="evenodd"
                                         d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18 20L16.565 18.564C15.797 19.099 14.932 19.498 14 19.738V22H10V19.738C9.069 19.498 8.203 19.099 7.436 18.564L6 20L4 18L5.436 16.564C4.901 15.799 4.502 14.932 4.262 14H2V10H4.262C4.502 9.068 4.9 8.202 5.436 7.436L4 6L6 4L7.436 5.436C8.202 4.9 9.068 4.502 10 4.262V2H14V4.261C14.932 4.502 15.797 4.9 16.565 5.435L18 3.999L20 5.999L18.564 7.436C19.099 8.202 19.498 9.069 19.738 10ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
                                     ></path>
                                 </svg>
