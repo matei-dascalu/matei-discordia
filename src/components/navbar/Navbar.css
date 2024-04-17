@@ -47,6 +47,7 @@
     font-weight: bold;
     margin-left: 5rem;
     display: inline-block;
+    transition: transform 0.5s ease;
 }
 
 .logo-text-2:hover {
