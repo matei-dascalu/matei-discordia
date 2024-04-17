@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from "react";
-import { chatUsers } from "./../dummy-users/DummyUsersChat";
+import { chatUsers } from "../components/dummy-users/DummyUsersChat";
 
 const ChatContext = createContext();
 

@@ -19,23 +19,3 @@ function MainApp() {
 }
 
 export default MainApp;
-
-//e bun asta
-
-// function MainApp() {
-//     return (
-//         <div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
-//             <Navbar />
-//             <div style={{ display: "flex", flex: "1" }}>
-//                 <Sidebar />
-//                 <div style={{ flex: "1", display: "flex", flexDirection: "column" }}>
-//                     <div style={{ flex: "1", overflow: "auto" }}>
-//                         <ChatApp />
-//                     </div>
-//                     <RightSidebar />
-//                 </div>
-//                 {window.innerWidth <= 588 ? null : <Sidebar />}
-//             </div>
-//         </div>
-//     );
-// }

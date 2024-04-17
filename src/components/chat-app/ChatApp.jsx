@@ -1,6 +1,6 @@
 import React from "react";
 import "./Chat-App.css";
-import { ChatProvider, useChat } from "./ChatContext";
+import { ChatProvider, useChat } from "./../../contexts/ChatContext";
 
 const ChatApp = () => {
     const { messages, inputValue, handleInputChange, handleSubmit, handleEmoticonClick } = useChat();
